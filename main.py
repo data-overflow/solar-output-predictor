@@ -66,10 +66,9 @@ def get_units(place, country, start_date_str, end_date_str, rating, no_panels, t
 @app.route("/api/<place>/<country>/<start>/<end>/<num>/<pr>")
 def index(place: str, country: str, start: str, end: str, num: int, pr: int):
     lat, lon, units = get_units(place, country, start, end, int(pr), int(num))
-    d0 = datetime.date(*start.split('-'))
-    d1 = datetime.date(*end.split('-'))
+    d0 = datetime.date(*[int(i) for i in start.split('-')])
+    d1 = datetime.date(*[int(i) for i in end.split('-')])
     delta = d1 - d0
-    print(delta.days)
     return make_response(jsonify({
         "lat": lat,
         "lon": lon,
