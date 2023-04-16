@@ -1,0 +1,5 @@
+Flask==2.2.2
+geopy==2.3.0
+pandas==1.3.5
+pvlib==0.9.5
+suntime==1.2.5
