@@ -7,11 +7,8 @@ import datetime
 from suntime import Sun, SunTimeException
 from config import Config
 
-SERVER_LOCATION = "http://127.0.0.1:5000"
-
 app = Flask(__name__)
 app.config.from_object(Config)
-
 
 def efficiency(latitude, longitude, time_zone, altitude, place_name, start_date, end_date, panel_rating):
     surface_tilt = 20
