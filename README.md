@@ -9,7 +9,7 @@ WE CREATED A MOBILE APPLICATION WHICH IS VERY USER FRIENDLY AND CAN BE USED BY C
 It has the ability to calculate for past, live and future dates. <br>
 It also covers the whole globe in terms of location. <br>
 It considers factors like wind speed, temperature and other weather conditions. <br>
-INTRODUCING YOU OUR APPLICATION – RA WATTS (THE solar output predictor)! <br>
+INTRODUCING YOU OUR APPLICATION – RA WATTS (THE solar output predictor)! <br>
 REQUIRED INPUTS: <br>
 PLACE NAME <br>
 COUNTRY NAME <br>
